@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.header div {
+    display: inline-block;
+}
+.item__header{
+    border-right: 1px solid #C4C4C4;
+    padding: 36px 30px;
+}
+.item__header:first-child{
+    border-left: 1px solid #C4C4C4;
+}
+.arrow{
+    margin-left: 15px;
+}
+.item__header p{
+    font-family: gilroy-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.ear__blocks{
+    border-right: 1px solid #C4C4C4;
+    padding: 26px 30px;
+}
+.ear{
+    background-color: #00868A;
+    padding: 10px 15px 8px;
+    color: #fff !important;
+}
+.ear img{
+    margin-right: 10px;
+}
+
+.first-screen{
+    background-color: #4FBFA5;
+    width: 100%;
+    min-height: 700px;
+}
+.header__nav{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.header__nav a{
+    margin: 30px 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.btn__head{
+    color: #000 !important;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.first__screen_content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.first__screen__banner img{
+    width: 100%;
+}
+.first__screen_text h1 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.first__screen_text{
+    align-self: end;
+}
+.first__screen_text p{
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    max-width: 420px;
+    margin: 20px 0 40px;
+    line-height: 150%;
+}
+.btn__cosmetik{
+    font-size: 18px;
+    background-color: #00868A;
+    padding: 15px 25px;
+    text-align: center;
+    max-width: 165px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn__cosmetik a{
+    color: #fff;
+    text-decoration: none;
+}
+.bnt_arrow_r_f{
+    float: right;
+    margin: 60px 60px  60px 0;
+}
+.first__nav__down{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.5fr 1fr 1fr;
+}
+.nav__down__item{
+    text-align: center;
+    background-color: #00868A;
+    padding: 24px 83px;
+    font-size: 21px;
+    color: #fff;
+}
+.nav__down__item:nth-child(2){
+    background: none;
+}
+.two__screen{
+    width: 100%;
+    min-height: 700px;
+    padding-top: 80px;
+}
+.two__screen__content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+.two__screen__text{
+    padding: 35px 40px 0;
+}
+.cosmetology__small{
+    background-image: url(../images/main/cosmetology-small.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+}
+.two__screen__content__first{
+    background-color: #00868A;
+}
+.btn__inova{
+    background-color: #4FBFA5;
+    align-items: center;
+    padding: 9px 15px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+.two__screen__h3{
+    font-size: 30px;
+    color: #fff;
+    padding: 35px 0;
+    line-height: 1.5em;
+}
+.bnt__next{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    padding-left:20px;
+}
+.two__screen_down_block{
+    padding-bottom: 45px;
+}
+.title_big{
+    font-size: 48px;
+}
